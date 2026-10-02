@@ -1,8 +1,29 @@
 # 🚚 StockSense — Outbound Fulfillment & Customer Delivery Operations Engine
 
+[![Production](https://img.shields.io/badge/Production-Live%20on%20Vercel-success?style=for-the-badge&logo=vercel)](https://odoo-omega.vercel.app/operations/deliveries)
+[![Demo Video](https://img.shields.io/badge/Demo_Video-Watch_Walkthrough-E50914?style=for-the-badge&logo=googledrive)](https://drive.google.com/file/d/1LTevcDiSRAGjvqE-0zIf-cpEfyf7eDIm/view?usp=sharing)
+[![Next.js](https://img.shields.io/badge/Next.js-16.3-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Neon%20Serverless-336791?style=for-the-badge&logo=postgresql)](https://neon.tech)
+[![Prisma](https://img.shields.io/badge/Prisma-6.19-2D3748?style=for-the-badge&logo=prisma)](https://www.prisma.io/)
+
 > **Odoo x GCET Hyderabad Hackathon 2026 | Team 4**  
 > **Lead Developer & Module Owner:** **Gayathri Devi M S** ([@gayathridevi2007](https://github.com/gayathridevi2007))  
 > **Specialization:** Outbound Fulfillment, 3-Step Pick/Pack/Ship Pipeline & Negative-Stock Prevention Guards  
+
+---
+
+## 🌐 Live Module Deployment & Demo Video
+
+🚀 **Live Module Direct URL:** **[https://odoo-omega.vercel.app/operations/deliveries](https://odoo-omega.vercel.app/operations/deliveries)**  
+🏢 **Enterprise Platform URL:** **[https://odoo-omega.vercel.app](https://odoo-omega.vercel.app)**  
+🎥 **Demo Video Walkthrough:** **[Watch on Google Drive](https://drive.google.com/file/d/1LTevcDiSRAGjvqE-0zIf-cpEfyf7eDIm/view?usp=sharing)**  
+
+### 🔑 Demo Login Credentials
+| Role | Email | Password | What Gayathri Built Here |
+|---|---|---|---|
+| **Warehouse Staff** | `staff@stocksense.dev` | `StockSense!1` | **Deliveries Console**, Pick/Pack/Validate pipeline, Printable Delivery Slips |
+| **Inventory Manager** | `manager@stocksense.dev` | `StockSense!1` | Full administrative control & delivery dispatch approvals |
 
 ---
 
@@ -124,24 +145,10 @@ When defending this module before Odoo evaluators, here are the exact architectu
 
 ---
 
-## ⚡ Quick Start & Run Locally
+## ⚡ Live Verification
 
-```bash
-# 1. Clone this repository
-git clone https://github.com/gayathridevi2007/odoo-StockSense.git
-cd odoo-StockSense
-
-# 2. Install dependencies
-npm install
-
-# 3. Generate Prisma client
-npx prisma generate
-
-# 4. Start development server
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) and navigate to **Operations ➔ Deliveries** to test the live Outbound Fulfillment engine!
+Click to test the live deployed Outbound Deliveries engine directly:
+👉 **[https://odoo-omega.vercel.app/operations/deliveries](https://odoo-omega.vercel.app/operations/deliveries)**
 
 ---
 
